@@ -1,0 +1,8 @@
+spring:
+    datasource:
+        password: password
+        url: jdbc:mysql://localhost:3306/blog
+        username: bloguser
+    jpa:
+        hibernate:
+            ddl-auto: create
